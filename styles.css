@@ -5,13 +5,19 @@ body {
 }
 
 #sitelead, #footer {
-    background-color: #1F2937;
+    background-color: #1F2957;
 }
 
 button {
-    background-color: #3882F6;
+    background-color: #5882F6;
     color: white;
     font-weight: 800;
+    border-radius: 25px;
+    border:none;
+}
+
+button > label {
+    padding: 25px 15px 25px 15px;
 }
 
 #sitelead {
@@ -47,22 +53,27 @@ button {
 #samples {
     display: flex;
     align-items: center;
-    padding: 0% 15% 0% 15%;
+    padding: 5% 15% 5% 15%;
     gap: 15px;
 }
 
 .bubbleheader {
-    font-size: 36px;
+    font-size: 56px;
     font-weight: 1000;
-    color: #1F2937;
+    color: #1F2957;
     text-align: center;
 }
 
 .bubblecard {
     border-radius: 25px;
-    border: 5px solid #1F2937;
+    border: 5px solid #1F2957;
     height: 100px;
     width: 100px;
+}
+
+.bubbletext {
+    padding-top: 10px;
+    
 }
 
 /*Quotes Section*/
@@ -74,16 +85,16 @@ button {
 }
 
 .inspirationalquote {
-    font-size: 36px;
+    font-size: 56px;
     font-style: italic;
-    color: #1F2937;
-    padding-top: 30px;
+    color: #1F2957;
+    padding-top: 50px;
 }
 
 .quotecredit {
     font-size: 18px;
     font-weight: 700;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 /*Footer*/
